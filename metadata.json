@@ -1,0 +1,8 @@
+{
+  "name": "PHY 102 Master",
+  "description": "A mobile-first practice platform for university students to master Introductory Physics II through CBT simulations and detailed performance analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
