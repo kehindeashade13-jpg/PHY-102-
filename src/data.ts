@@ -29,6 +29,12 @@ export const FLASHCARDS: Flashcard[] = [
     category: "Electrostatics",
     front: "What is the physical meaning of Gauss's Law?",
     back: "The total electric flux through any closed Gaussian surface is equal to the net charge enclosed by the surface divided by the permittivity of free space (Φ = Q_enclosed / ε0)."
+  },
+  {
+    id: "fc-7",
+    category: "Maxwell's Equations",
+    front: "What is the significance of the displacement current in Maxwell's Equations?",
+    back: "Displacement current (I_d = ε0 * dΦE/dt) represents a changing electric field producing a magnetic field. It was added by Maxwell to Ampere's Law to satisfy conservation of charge, explaining wave propagation through a vacuum."
   }
 ];
 
@@ -61,6 +67,16 @@ export const TOPIC_NOTES: TopicNote[] = [
       "The magnetic force on a moving charge is F = q(v × B); it does zero work on the charge because the force is always perpendicular to velocity.",
       "Two parallel wires carrying currents in the same direction attract each other; wires carrying opposite currents repel.",
       "Faraday's Law of Induction states that the induced electromotive force in a circuit is proportional to the rate of change of magnetic flux."
+    ]
+  },
+  {
+    id: "note-4",
+    title: "4. Maxwell's Equations & EM Waves",
+    content: "Maxwell's equations unify electricity, magnetism, and optics. They consist of Gauss's Law for Electricity, Gauss's Law for Magnetism, Faraday's Law, and the Ampere-Maxwell Law. Together, they demonstrate that changing electric fields create magnetic fields and vice versa, allowing electromagnetic waves to propagate.",
+    keyPoints: [
+      "Gauss's Law for magnetism (∇ · B = 0) states that magnetic monopoles do not exist; magnetic flux lines are always closed loops.",
+      "In free space (vacuum), the speed of electromagnetic waves is derived from permittivity and permeability as c = 1 / sqrt(μ0 * ε0) ≈ 3.00 × 10^8 m/s.",
+      "The Poynting Vector S = (1/μ0) * (E × B) represents the directional energy flux density (W/m²) of electromagnetic radiation."
     ]
   }
 ];

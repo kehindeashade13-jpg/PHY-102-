@@ -12,6 +12,7 @@ import {
 import { Question, QuizConfig, ExamResult } from '../types';
 import { BANK } from '../questions';
 import { toggleFavoriteQuestion } from '../storage';
+import ScientificCalculator from './ScientificCalculator';
 
 interface PracticeModeProps {
   selectedTopic: string | null;
@@ -580,6 +581,7 @@ export default function PracticeMode({
           </div>
         </div>
       )}
+      <ScientificCalculator />
     </>
   );
 }

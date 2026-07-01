@@ -12,6 +12,7 @@ import {
 import { Question, ExamResult } from '../types';
 import { BANK } from '../questions';
 import { getStoredResults } from '../storage';
+import ScientificCalculator from './ScientificCalculator';
 
 interface CBTExamModeProps {
   onFinishExam: (result: ExamResult) => void;
@@ -745,6 +746,7 @@ export default function CBTExamMode({ onFinishExam, onCancel, onViewPastResult, 
           </div>
         </div>
       )}
+      <ScientificCalculator />
     </>
   );
 }
