@@ -391,5 +391,33 @@ export const CURRENT_ELECTRICITY_QUESTIONS: Question[] = [
     ],
     correctAnswer: "4.0 V/m",
     explanation: "The electric field intensity E inside a uniform wire of length L across which a potential difference V is applied is given by E = V / L = 6.0 V / 1.5 m = 4.0 V/m."
+  },
+  {
+    id: "phy102-ce-31",
+    sec: "Current Electricity",
+    question: "Which of the following formulas is incorrect?",
+    options: [
+      "σ = 1 / ρ",
+      "σ = E / J",
+      "E = V / L",
+      "R = ρ * L / A",
+      "σ = E * A / J"
+    ],
+    correctAnswer: "σ = E / J",
+    explanation: "Ohm's Law in vector form is J = σ * E, which gives the correct definition of conductivity as σ = J / E. Therefore, the formula σ = E / J is incorrect (option B). Note that option E is also dimensionally incorrect, but B represents the fundamental inversion of Ohm's Law."
+  },
+  {
+    id: "phy102-ce-32",
+    sec: "Current Electricity",
+    question: "One of the following types of waves propagates via a material medium:",
+    options: [
+      "Sound wave",
+      "both transverse and longitudinal wave",
+      "transverse wave only",
+      "none of the above",
+      "Atomic wave"
+    ],
+    correctAnswer: "Sound wave",
+    explanation: "Sound waves are mechanical waves that require a material medium (solid, liquid, or gas) to propagate. They cannot travel through a vacuum, unlike electromagnetic waves."
   }
 ];

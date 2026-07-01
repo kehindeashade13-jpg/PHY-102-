@@ -119,13 +119,13 @@ export const ELECTROSTATICS_QUESTIONS: Question[] = [
     question: "An infinite nonconducting sheet has a surface charge density σ = 0.10 μC/m^2 on one side. How far apart are the equipotential surfaces whose potentials differ by 50 V?",
     options: [
       "76 mm",
-      "56 mm",
-      "8.85 mm",
+      "58 mm",
+      "88 mm",
       "95 mm",
       "68 mm"
     ],
-    correctAnswer: "8.85 mm",
-    explanation: "The electric field E of an infinite nonconducting sheet is E = σ / (2 * ε0). The distance between equipotential surfaces with potential difference ΔV is d = ΔV / E = ΔV * 2 * ε0 / σ. Substituting values: d = 50 * 2 * (8.85 × 10^-12) / (0.10 × 10^-6) = 8.85 × 10^-3 m = 8.85 mm."
+    correctAnswer: "88 mm",
+    explanation: "The electric field E of an infinite nonconducting sheet is E = σ / (2 * ε0). The distance between equipotential surfaces with potential difference ΔV is d = ΔV / E = ΔV * 2 * ε0 / σ. Substituting values: d = 50 * 2 * (8.854 × 10^-12) / (0.10 × 10^-6) = 8.85 × 10^-3 m = 8.85 mm. On the exam sheet, this value is printed as 88 mm (an apparent decimal typo, missing a point as 8.8 mm)."
   },
   {
     id: "phy102-es-10",
@@ -200,21 +200,21 @@ export const ELECTROSTATICS_QUESTIONS: Question[] = [
   {
     id: "phy102-es-15",
     sec: "Electrostatics",
-    question: "Two large, parallel conducting plates are 12 cm apart and have charges of equal magnitude and opposite sign on their facing surfaces. An electrostatic force of 3.9 × 10^-2 N acts on an electron placed anywhere between the plates. Calculate the electric field at the position of the electron and the potential difference between the plates.",
+    question: "Two large, parallel conducting plates are 12 cm apart and have charges of equal magnitude and opposite sign on their facing surfaces. An electrostatic force of 3.9 × 10^-15 N acts on an electron placed anywhere between the plates. Calculate the electric field at the position of the electron and the potential difference between the plates.",
     options: [
-      "2.4 × 10^17 V/m and 2.9 × 10^3 V",
+      "2.4 × 10^4 V/m and 2.9 × 10^3 V",
       "3.5 × 10^4 V/m and 2.7 × 10^3 V",
       "2.5 × 10^5 V/m and 2.5 × 10^2 V",
       "4.5 × 10^3 V/m and 5.0 × 10^3 V",
       "6.4 × 10^4 V/m and 5.9 × 10^3 V"
     ],
-    correctAnswer: "2.4 × 10^17 V/m and 2.9 × 10^3 V",
-    explanation: "According to the exam sheet parameters, the electric field E is E = F / q = (3.9 × 10^-2 N) / (1.6 × 10^-19 C) ≈ 2.4 × 10^17 V/m. The potential difference V is given as 2.9 × 10^3 V in option A."
+    correctAnswer: "2.4 × 10^4 V/m and 2.9 × 10^3 V",
+    explanation: "The electric field E is E = F / q = (3.9 × 10^-15 N) / (1.6 × 10^-19 C) ≈ 2.44 × 10^4 V/m. The potential difference V is given as V = E * d = (2.44 × 10^4 V/m) * 0.12 m ≈ 2.9 × 10^3 V. This corresponds to option A."
   },
   {
     id: "phy102-es-16",
     sec: "Electrostatics",
-    question: "An electric field with a magnitude of 160 N/C exists at a spot that is 15 cm away from a charge. At a place 26 cm away from this charge, calculate the electric field strength.",
+    question: "An electric field with a magnitude of 160 N/C exists at a spot that is 15 cm away from a charge. At a place 45 cm away from this charge, calculate the electric field strength.",
     options: [
       "53.3 N/C",
       "50 N/C",
@@ -222,8 +222,8 @@ export const ELECTROSTATICS_QUESTIONS: Question[] = [
       "18 N/C",
       "19 N/C"
     ],
-    correctAnswer: "53.3 N/C",
-    explanation: "The electric field is inversely proportional to the square of the distance: E1 * r1^2 = E2 * r2^2. Substituting the given values: 160 * (15)^2 = E2 * (26)^2 => 36000 = 676 * E2 => E2 ≈ 53.3 N/C."
+    correctAnswer: "18 N/C",
+    explanation: "The electric field E of a point charge is inversely proportional to the square of the distance (E ∝ 1 / r^2). Therefore, E1 * r1^2 = E2 * r2^2. Substituting: 160 * (15)^2 = E2 * (45)^2 => 160 * 225 = E2 * 2025 => E2 = 36000 / 2025 ≈ 17.78 N/C, which rounds to 18 N/C as printed in option D."
   },
   {
     id: "phy102-es-17",
@@ -284,7 +284,7 @@ export const ELECTROSTATICS_QUESTIONS: Question[] = [
   {
     id: "phy102-es-21",
     sec: "Electrostatics",
-    question: "The electric potential energy of two electrons separated by 20 nm situated in a free space is:",
+    question: "The electric potential energy of two electrons separated by 2.0 nm situated in a free space is:",
     options: [
       "1.15 × 10^-19 J",
       "2.75 × 10^-19 J",
@@ -293,7 +293,7 @@ export const ELECTROSTATICS_QUESTIONS: Question[] = [
       "4.75 × 10^-19 J"
     ],
     correctAnswer: "1.15 × 10^-19 J",
-    explanation: "Electric potential energy is given by U = k * q1 * q2 / r. Substituting values for two electrons: U = (9.0 × 10^9) * (-1.6 × 10^-19)^2 / (20 × 10^-9) = 1.152 × 10^-20 J. The document prints 1.15 × 10^-19 J as option A."
+    explanation: "Electric potential energy is given by U = k * q1 * q2 / r. Substituting values for two electrons: U = (9.0 × 10^9) * (-1.6 × 10^-19)^2 / (2.0 × 10^-9) = 1.152 × 10^-19 J, which is printed as 1.15 × 10^-19 J in option A."
   },
   {
     id: "phy102-es-22",
@@ -411,5 +411,61 @@ export const ELECTROSTATICS_QUESTIONS: Question[] = [
     ],
     correctAnswer: "Induction",
     explanation: "Charging by induction is a method of charging an object without any direct physical contact. A charged object is brought near a neutral conductor, causing charges inside to redistribute, and grounding is used to leave a net charge behind."
+  },
+  {
+    id: "phy102-es-31",
+    sec: "Electrostatics",
+    question: "A test charge of +3.0 μC is placed at a point P where an external electric field is directed to the right and has a magnitude of 4 × 10^6 N/C. If the test charge is replaced with another test charge of -3.0 μC, the external electric field at P is:",
+    options: [
+      "is unaffected",
+      "reverses direction",
+      "changes in a way that cannot be determined",
+      "goes up and down",
+      "increased in magnitude"
+    ],
+    correctAnswer: "is unaffected",
+    explanation: "The external electric field at a point is a property of the source charges creating it and does not depend on the test charge placed at that point. Thus, changing the test charge does not affect the external electric field itself."
+  },
+  {
+    id: "phy102-es-32",
+    sec: "Electrostatics",
+    question: "An electron moves round a fixed proton at a distance of 5.29 × 10^-11 m. Calculate the potential the proton creates at this distance.",
+    options: [
+      "-13.6 V",
+      "+6.8 V",
+      "+27.2 V",
+      "+13.6 V",
+      "-6.8 V"
+    ],
+    correctAnswer: "+27.2 V",
+    explanation: "The potential V created by a proton (charge q = +1.6 × 10^-19 C) at distance r is given by V = k * q / r. Substituting values: V = (8.99 × 10^9) * (1.6 × 10^-19) / (5.29 × 10^-11) ≈ 27.2 V."
+  },
+  {
+    id: "phy102-es-33",
+    sec: "Electrostatics",
+    question: "Three point charges q1 = -4 μC, q2 = +3 μC and q3 = -7 μC are arranged along a line. If the separation between q1 and q2 is 20 cm and between q2 and q3 is 15 cm, calculate the net electrostatic force on q2 (with q2 situated in the middle).",
+    options: [
+      "8.4 N",
+      "5.7 N",
+      "-2.7 N",
+      "11.1 N",
+      "7.4 N"
+    ],
+    correctAnswer: "5.7 N",
+    explanation: "Force from q1 on q2: F1 = k * |q1| * |q2| / r12^2 = (8.99 × 10^9) * (4 × 10^-6) * (3 × 10^-6) / 0.20^2 = 2.7 N (attractive, towards q1, say to the left). Force from q3 on q2: F2 = k * |q3| * |q2| / r23^2 = (8.99 × 10^9) * (7 × 10^-6) * (3 × 10^-6) / 0.15^2 = 8.4 N (attractive, towards q3, say to the right). The net force on q2 is F2 - F1 = 8.4 - 2.7 = 5.7 N."
+  },
+  {
+    id: "phy102-es-34",
+    sec: "Electrostatics",
+    question: "How much work is required to carry an electron from the positive terminal of a 12-V battery to the negative terminal?",
+    options: [
+      "1.9 × 10^-18 J",
+      "-1.9 × 10^-18 J",
+      "1.6 × 10^-17 J",
+      "1.2 × 10^-18 J",
+      "1.0 × 10^-17 J"
+    ],
+    correctAnswer: "1.9 × 10^-18 J",
+    explanation: "The potential difference is ΔV = 12 V. Work done W to move an electron (charge magnitude e = 1.602 × 10^-19 C) against the electric potential from the positive (higher potential) to the negative (lower potential) terminal is W = q * ΔV = (1.602 × 10^-19 C) * 12 V ≈ 1.9 × 10^-18 J."
   }
 ];

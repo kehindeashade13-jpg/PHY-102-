@@ -4,6 +4,45 @@
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Overriding Slate palette with warm, creamy, organic milk shades */
+  --color-slate-50: #FCFAF6;   /* Creamy organic milk primary background */
+  --color-slate-100: #F4EFEB;  /* Rich butter milk */
+  --color-slate-200: #EADDC9;  /* Creamy border accent */
+  --color-slate-300: #DECBB3;  /* Latte cream */
+  --color-slate-400: #BCA38A;  /* Soft coffee powder */
+  --color-slate-500: #8F7660;  /* Roasted chestnut */
+  --color-slate-600: #6D5745;  /* Soft chocolate */
+  --color-slate-700: #4F3E31;  /* Dark cocoa */
+  --color-slate-800: #33271F;  /* Deep coffee bean */
+  --color-slate-900: #1F1712;  /* Espresso black */
+  --color-slate-950: #120C09;  /* Absolute dark roast */
+
+  /* Overriding Indigo palette with fresh, premium, academic green secondary & accent shades */
+  --color-indigo-50: #F2FAF4;   /* Pale mint cream */
+  --color-indigo-100: #E3F5E7;  /* Soft mint */
+  --color-indigo-200: #C7ECD0;  /* Bright sage */
+  --color-indigo-300: #9CDEAA;  /* Fresh green tea */
+  --color-indigo-400: #62C778;  /* Vibrant leaf green */
+  --color-indigo-500: #2EB04E;  /* Emerald grass */
+  --color-indigo-600: #1E8C3B;  /* Deep forest green secondary */
+  --color-indigo-700: #15702D;  /* Rich moss green */
+  --color-indigo-800: #0F5422;  /* Academic ivy green */
+  --color-indigo-900: #0B3D18;  /* Midnight forest */
+  --color-indigo-950: #05210D;  /* Dark pine */
+
+  /* Overriding Violet palette with corresponding matching forest green shades to harmonize gradients */
+  --color-violet-50: #F2FAF4;
+  --color-violet-100: #E3F5E7;
+  --color-violet-200: #C7ECD0;
+  --color-violet-300: #9CDEAA;
+  --color-violet-400: #62C778;
+  --color-violet-500: #2EB04E;
+  --color-violet-600: #1E8C3B;
+  --color-violet-700: #15702D;
+  --color-violet-800: #0F5422;
+  --color-violet-900: #0B3D18;
+  --color-violet-950: #05210D;
 }
 
 /* Custom High Contrast Accessibility Theme */
